@@ -1,0 +1,140 @@
+<!Doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"
+    <meta name="viewport" content="width=device-width", intial-scale="1.0">
+    <title>Aparo Accesories</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+<div class="header">    
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="Aparo Website Images/Aparo Logo.png" alt="Aparo Logo" width="125">
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Account</a></li>
+            </ul>
+        </nav>
+        <img src="Aparo Website Images/cart.png" width="30px" height="30px">
+        <img src="Aparo Website Images/menu.png" class="menu-icon" onclick="menutoggle()">
+      </div>
+      <div class="row">
+        <div class="col-2">
+            <h1>A Strong, Simple Wallet<br>For The Modern Man</h1>
+            <p>Carry it to the office or while on a casual day out. Our men's RFID wallet is your perfect partner, no matter the occasion or time. Pair this wallet with scintillating formals or smart casual as its unique design will add to the glamor of your every look.</p>
+            <a href="" class="btn">Explore Now &#10230;</a>
+        </div>
+        <div class="col-2">
+            <img src="Aparo Website Images/Carbon_Fiber_Black_Model-removebg-preview.png">
+
+        </div>
+      </div>
+</div>
+</div>
+
+<!------ featured categories ----->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="Aparo Website Images/omg black texture grain.png">
+                    <h3>Mens Wallets for All Occasions</h3>
+                    <p>Are you in search of a sleek and fashionable credit card holder? The men's wallets from Aparo prioritize both style and minimalism. These modern wallets are elegant, functional, and highly adaptable for everyday use, as well as for vacations, work, and even formal events where you want to make a good impression.</p>
+                </div>
+                <div class="col-3">
+                    <img src="Aparo Website Images/omg wood grain.png">
+                    <h3>RFID Protection to Safegaurd against Thieves</h3>
+                    <p>This slim men's wallet contains advanced RFID blocking technology to safeguard your credit cards and personal information against scanning and unauthorized access by thieves. You can rely on the Aparo wallet to protect your finances and data, all within a compact and convenient design.</p>
+                </div>
+                <div class="col-3">
+                    <img src="Aparo Website Images/omg carbon fiber grain.png">
+                    <h3>Quality Assurance</h3>
+                    <p>Our men's wallets are made from high-quality materials with exceptional craftsmanship, featuring premium aluminum construction and rustproof metal finishes in a deluxe design. These minimalist wallets are durable, scratch-resistant, and built to last. We are so confident in the excellence of our product. </p>
+            </div>
+        </div>
+    </div>
+
+    <!-------- offer --------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="Aparo Website Images/Aparo Bird.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Want to be informed when a product gets released?</p>
+                    <h1>Sign Up And Create An Account With Us! </h1>
+                    <small>Our user-friendly website makes it easy to shop, compare, and find the perfect wallet for you. And with our fast and secure checkout process, you can be confident that your transaction will be smooth and hassle-free. So don't wait any longer! Sign up for an account on our wallet store today and experience the ultimate solution.</small>
+                    <a href="" class="btn">Sign Up &#10230;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!----------footer----------->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>100% satisfaction guaranteed</h3>
+                        <p>We make sure that our customers are completely satisfied by offering a lifetime warranty!</p>
+                    </div>
+                    <div class="footer-col-2">
+                        <h3>Aparo Accesories</h3>
+                        <p>Our purpose is to sustainably provide mens accesories that are easy to carry, easy to use, stylish and affordable.</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Amazon Link</li>
+                            <li>Return Policy</li>
+                            <li>Coupons</li>
+                            <li>Mobile App</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>Tiktok</li>
+                        </ul>
+                </div>
+            </div>
+            <hr>
+                <p class="copyright">Copyright 2023 - Aparo</p>
+        </div>
+<!--------js for toggle menu----------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px"
+                }
+                else
+                {
+                    MenuItems.style.maxHeight = "0px"
+                }
+             
+            }        
+        </script>
+</body>
+</html>
